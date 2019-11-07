@@ -1,4 +1,4 @@
-fish_data <- read.csv("data/Gaeta_etal_CLC_data.csv")
+fish_data <- read.csv("data/Gaeta_etal_CLC_data1.csv")
 library(dplyr)
 #Create categorical size column
 fish_data_cat = fish_data %>%
