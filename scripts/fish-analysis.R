@@ -7,5 +7,3 @@ fish_data_cat = fish_data %>%
 library(tidyverse)
 ggplot(fish_data) +
   geom_point(mapping = aes(x = length, y = scalelength, color = lakeid))
-ggplot(fish_data_cat) +
-  geom_histogram(mapping = aes(x = scalelength, fill = length_cat))
