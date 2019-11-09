@@ -14,5 +14,5 @@ ggplot(fish_data) +
 
 
 #try this 
-ggplot(fish_data_cat, aes(x = scalelength, fill = length_cat)) +
-  geom_histogram()
+ggplot(fish_data_cat, aes(x = scalelength, fill = length_cat, binwidth = 80)) +
+  geom_histogram(bins = 80)
