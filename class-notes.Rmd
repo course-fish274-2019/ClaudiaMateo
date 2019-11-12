@@ -31,3 +31,4 @@ data <- read.csv("https://ndownloader.figshare.com/files/2292172")
 head(data)
 ```
 
+The data includes `r length(unique(data$species_id))` species.
